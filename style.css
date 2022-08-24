@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Silkscreen&display=swap');
+body{
+    text-align: center;
+    background-image:url(images/bg.jpg);
+    background-size: cover;
+    font-family: 'Silkscreen', cursive;
+}
+
+@media(max-width: 767px)
+{
+    body{
+        text-align: center;
+        background-image:url(images/bg-mobile.jpg);
+        background-size: cover;
+    
+    }
+}
+.container{
+   margin-top:50px;
+}
+.heading{
+    color: white;
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+
+   
+}
+.innpu{
+    height: 50px;
+    width: 240px;
+    margin:20px;
+    
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    font-size:large;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.237);
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px whitesmoke;
+    border-radius: 5px;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.237);
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px whitesmoke;
+    border-radius: 5px;
+}
+
